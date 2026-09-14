@@ -4,7 +4,7 @@
   <b>AI/ML Engineer in training</b> · ML Engineering Intern @ FlyRank AI (2026) · B.E. CSE '27, Garden City University, Bengaluru
 </p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/santosh--s">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/santosh--s">LinkedIn</a> 
   <a href="https://github.com/Santosh-S321?tab=repositories">Repositories</a>
 </p>
 
@@ -13,7 +13,6 @@ I build machine learning systems end to end — data pipeline, model, evaluation
 - 🔭 Working on a **landmark-based ASL sign-to-speech recognition system** (final-year capstone)
 - 🧪 Built a **content opportunity scoring model** at FlyRank AI — ranked review queue with reason codes, evaluated by precision@K against a rule baseline
 - 🌱 Going deeper on model evaluation, calibration, and shipping models behind APIs
-- 📫 [LinkedIn](https://www.linkedin.com/in/santosh--s)
 
 ---
 
