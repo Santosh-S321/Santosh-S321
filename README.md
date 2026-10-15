@@ -12,6 +12,7 @@ I build machine learning systems end to end — data pipeline, model, evaluation
 
 - 🔭 Working on a **landmark-based ASL sign-to-speech recognition system** (final-year capstone)
 - 🧪 Built a **content opportunity scoring model** at FlyRank AI — ranked review queue with reason codes, evaluated by precision@K against a rule baseline
+- ⚙️ Built a **scheduled GenAI news-digest pipeline** — embedding-based dedupe, LLM summarization and ranking, deployed on GitHub Actions
 - 🌱 Going deeper on model evaluation, calibration, and shipping models behind APIs
 
 ---
@@ -21,6 +22,7 @@ I build machine learning systems end to end — data pipeline, model, evaluation
 | Project | What it does | Stack |
 |---|---|---|
 | [**Credit Card Fraud Detection**](https://github.com/Santosh-S321/credit-card-fraud-detection) | Per-card behavioral features, amount-aware approve/OTP/block decisions, SHAP reason codes, FastAPI service with replay demo. Test PR-AUC 0.9+ | XGBoost · SHAP · FastAPI · pandas |
+| [**AI News Aggregator**](https://github.com/Santosh-S321/ai-news-aggregator) | Daily GenAI digest pipeline — ingests AI news from RSS feeds, removes near-duplicate stories with pgvector embeddings, summarizes and ranks articles against an interest profile, and emails the top 10. Scheduled on GitHub Actions | Python · PostgreSQL + pgvector · Gemini · SQLAlchemy · GitHub Actions |
 | [**AuditIQ**](https://github.com/Santosh-S321/AuditIQ) | AI-powered GST reconciliation for Indian MSMEs — multi-agent pipeline over invoice and return data | FastAPI · LangGraph · Groq · Next.js 14 · SQLite |
 | [**Sign Language to Speech**](https://github.com/Santosh-S321) | Real-time ASL recognition from hand/pose landmarks, CPU-only inference at ~3 ms median latency. Includes signer-independent evaluation and ablation study | MediaPipe · PyTorch · OpenCV · TTS |
 | [**Agentic AI Lab**](https://github.com/Santosh-S321/Agentic_AI) | Reference implementations of agent patterns — RAG, tool use, multi-agent orchestration, tracing | LangChain · LangGraph · AutoGen · LangSmith |
@@ -66,6 +68,7 @@ Also contributed DevOps and CI/CD to an [AI-driven crime analytics platform](htt
 **Data & Tooling**
  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
