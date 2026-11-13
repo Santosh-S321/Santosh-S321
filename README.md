@@ -13,6 +13,8 @@ I build machine learning systems end to end — data pipeline, model, evaluation
 - 🔭 Working on a **landmark-based ASL sign-to-speech recognition system** (final-year capstone)
 - 🧪 Built a **content opportunity scoring model** at FlyRank AI — ranked review queue with reason codes, evaluated by precision@K against a rule baseline
 - ⚙️ Built a **scheduled GenAI news-digest pipeline** — embedding-based dedupe, LLM summarization and ranking, deployed on GitHub Actions
+- 🎙️ Built **ASHA Vaani**, a Hindi/Kannada voice agent for ASHA health workers, at the Gnani Voice Hackathon
+- 🎯 Built two **placement-prep GenAI apps** in a Gen AI Workshop — structured-output question generation and a LangGraph answer-evaluation workflow
 - 🌱 Going deeper on model evaluation, calibration, and shipping models behind APIs
 
 ---
@@ -23,6 +25,9 @@ I build machine learning systems end to end — data pipeline, model, evaluation
 |---|---|---|
 | [**Credit Card Fraud Detection**](https://github.com/Santosh-S321/credit-card-fraud-detection) | Per-card behavioral features, amount-aware approve/OTP/block decisions, SHAP reason codes, FastAPI service with replay demo. Test PR-AUC 0.9+ | XGBoost · SHAP · FastAPI · pandas |
 | [**AI News Aggregator**](https://github.com/Santosh-S321/ai-news-aggregator) | Daily GenAI digest pipeline — ingests AI news from RSS feeds, removes near-duplicate stories with pgvector embeddings, summarizes and ranks articles against an interest profile, and emails the top 10. Scheduled on GitHub Actions | Python · PostgreSQL + pgvector · Gemini · SQLAlchemy · GitHub Actions |
+| [**ASHA Vaani**](https://github.com/Santosh-S321/ASHA_Vaani) · [Live demo](https://asha-vaani-e4zd.onrender.com/) | Hands-free voice field register for ASHA workers (Gnani Voice Hackathon). Turns code-mixed Hindi/Kannada + English speech into a structured visit record, reads it back for voice corrections, flags danger signs with a fixed referral alert, and computes vaccine due dates by rule. LLM only extracts fields; replies come from fixed templates | FastAPI · WebSockets · Gnani STT/TTS · LLM extraction · Fernet encryption · Render |
+| [**AI Placement Feedback Assistant**](https://github.com/Santosh-S321/AI-Placement-Feedback-Assistant) | Interview-practice evaluator — LangGraph workflow analyzes a student's answer, scores it on a 0–10 rubric, routes low scores (<7) to a coaching node, and compiles a downloadable report. Includes a performance dashboard and LangSmith tracing | LangGraph · LangChain · OpenRouter · Streamlit · LangSmith |
+| [**AI Placement Preparation Assistant**](https://github.com/Santosh-S321/AI-Placement-Preparation-Assistant) | Generates role-, experience- and difficulty-specific interview questions with model answers, explanations and practical examples, using Pydantic-validated structured output | LangChain · OpenRouter · Pydantic · Streamlit |
 | [**AuditIQ**](https://github.com/Santosh-S321/AuditIQ) | AI-powered GST reconciliation for Indian MSMEs — multi-agent pipeline over invoice and return data | FastAPI · LangGraph · Groq · Next.js 14 · SQLite |
 | [**Sign Language to Speech**](https://github.com/Santosh-S321) | Real-time ASL recognition from hand/pose landmarks, CPU-only inference at ~3 ms median latency. Includes signer-independent evaluation and ablation study | MediaPipe · PyTorch · OpenCV · TTS |
 | [**Agentic AI Lab**](https://github.com/Santosh-S321/Agentic_AI) | Reference implementations of agent patterns — RAG, tool use, multi-agent orchestration, tracing | LangChain · LangGraph · AutoGen · LangSmith |
@@ -54,6 +59,7 @@ Also contributed DevOps and CI/CD to an [AI-driven crime analytics platform](htt
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white)
  
 **Backend & Frontend**
  
@@ -62,6 +68,7 @@ Also contributed DevOps and CI/CD to an [AI-driven crime analytics platform](htt
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black)
  
